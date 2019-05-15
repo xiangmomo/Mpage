@@ -285,6 +285,7 @@ padding: 10px 0px ;
 }
 
 #da-bao img:hover{
+	/* transition: position 2s,top 2s; */
 	position: relative;
 	top: -10px;
 	box-shadow: 0px 10px  20px #555555;
@@ -661,8 +662,31 @@ canvas{
 	left: 1.25rem;
 	top: -5px;
 }
+/*
+联想
+*/
+
+.lain{
+	background-color: #FFFFFF;
+	position: relative;
+	width: 222px;
+	top: -0.825rem;
+	right: -3.12rem;
+}
+.lain ul li{
+	font-family: "微软雅黑";
+	font-size:14px ;
+	color: #555555;
+	text-align: left;
+	margin-bottom: 0.3125rem;
+}
+.lain ul li:hover{
+	background-color: #D3E7FB;
+	color: #777777;
+	cursor: pointer;
+}
 *{
-		/*outline: solid 1px red;*/	
+		/* outline: solid 1px red; */
 		
 }
 
