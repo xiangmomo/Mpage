@@ -1,37 +1,1 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/xiangMOMO/Mpage/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xiangMOMO/Mpage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+﻿﻿**个人动漫导航**---**描述**  **名称**M导航  **描述**番剧，壁纸，开发，工具，黑科技，音乐，手办，cosplay，github，小说等等都可以找到想要的！**地址：**[https://xiangmomo.github.io/Mpage/](https://xiangmomo.github.io/Mpage/)喵了个咪::: hljs-center**图片：**![EYwwxx.gif](https://s2.ax1x.com/2019/05/01/EYwwxx.gif):::---::: hljs-center**亮点：**:::::: hljs-right1.Live 2D ::: ::: hljs-center![EYwvQ0.gif](https://s2.ax1x.com/2019/05/01/EYwvQ0.gif)  :::::: hljs-right2.免后台修改设置  :::说明：（因为是没有后台所以使用cookie，换一个浏览器设置无法使用，  或者清除cookie也无法使用，想要恢复默认可以清除cookie）  图片：![EY0QFH.gif](https://s2.ax1x.com/2019/05/01/EY0QFH.gif)> **2019.5.1更新**1.添加设置    （右上角可设置头像，名称，签名，注：图片必须是外链）  2.修改已知Bug  （1.修改Live 2D遮挡住网址无法点击）   （2.修改右侧导航点击无法新开页面问题）  >**2019.5.15更新**1.新增搜索联想功能（根据输入提示你可能需要的词汇）2.稍稍美化优化

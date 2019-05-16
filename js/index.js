@@ -151,7 +151,7 @@ $(function() {
 		$.get("https://www.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=pc&from=pc_web&wd=" + tex, function(data) {
 			var datas = JSON.stringify(data); //将jsonp函数转换为json字符串
 			var da=JSON.parse(datas);//将字符串转化为json对象，对象可以使用‘.’的方式调用
-			var htl="<ul>";
+			var htl="<span class='tong top1'>联想结果</span><div class='xian'></div><ul>";
 			var mt;
 		for(var o in da.g){
 			mt=da.g[o].q;
@@ -161,7 +161,7 @@ $(function() {
 			htl+="<li>&nbsp;&nbsp;"+mt+"<li>";
 			
 		};
-		$(".lain").html(htl+"</ul>");
+		$(".lain").html(htl+"</ul><span class='tong top2'>查找结束</span><div class='xian'></div>");
 		}, "jsonp");
 			
 		}

@@ -231,10 +231,11 @@ height: 40px;
 background-color: darkorange;
 opacity: 2;
 border:1px solid #FF8C00 ;
-top: -10px;
+top: -13px;
 }
 #submit{
 	font-weight:900 ;
+	
 }
 #da-div{
 	position: absolute;
@@ -670,21 +671,35 @@ canvas{
 	background-color: #FFFFFF;
 	position: relative;
 	width: 222px;
-	top: -0.825rem;
+	top: -0.725rem;
 	right: -3.12rem;
 }
 .lain ul li{
 	font-family: "微软雅黑";
-	font-size:14px ;
-	color: #555555;
+	font-size:13px ;
+	color: #7D7F82;
 	text-align: left;
 	margin-bottom: 0.3125rem;
 }
 .lain ul li:hover{
-	background-color: #D3E7FB;
+	background-color: #E5E9EF;
 	color: #777777;
 	cursor: pointer;
 }
+.tong{
+	color: #99A2AA;
+	font-size:11px;
+	background-color:#FFFFFF ;
+	z-index: 1;
+	padding: 0 5px 0 0.3125rem;
+}
+.xian{
+	border-bottom:1px #99A2AA solid;
+	position: relative;
+	top: -8px;
+	margin: 0 0.3125rem 0 0.3125rem;
+}
+
 *{
 		/* outline: solid 1px red; */
 		
