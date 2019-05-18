@@ -221,6 +221,8 @@ height: 600px;
 	color: #FFFFFF;
 }
 #so img{
+	top: 1px;
+	height: 38px;
 	width: 150px;
 	border-radius:5px ;
 }
@@ -231,7 +233,7 @@ height: 40px;
 background-color: darkorange;
 opacity: 2;
 border:1px solid #FF8C00 ;
-top: -13px;
+top: -10px;
 }
 #submit{
 	font-weight:900 ;
@@ -403,11 +405,12 @@ padding: 10px 0px ;
 
 #index-tui li{
 	position: relative;
-	width: 109px;
+	width: 114px;
 	height: 30px;
 	display: inline-block;
 	background-color: #FFFFFF;
 	border: 1px solid #A6A6A6;
+	margin: -5px;
 }
 #index-tui li:hover{
 	background-color: #F1F1F1;
@@ -422,6 +425,7 @@ padding: 10px 0px ;
 	font-size:13px ;
 }
 #index-tui{
+	top: 6px;
 	margin-bottom:20px ;
 	width: 1000px;
 }
@@ -698,6 +702,43 @@ canvas{
 	position: relative;
 	top: -8px;
 	margin: 0 0.3125rem 0 0.3125rem;
+}
+/*搜索列表*/
+#so-li,#so-ul{
+	position: absolute;
+	width: 500px;
+	left: -20px;
+}
+#so-li li,#so-ul li{
+	width: 104px;
+	height: 20px;
+	float: left;
+	top: -30px;
+	right: -50px;
+	margin-left:5px ;
+	padding: 3px 0px 3px 0px  ;
+	color: #FFFFFF;
+	font-size:12px ;
+	font-family: "微软雅黑";
+	border-radius:3px ;
+}
+#so-ul li{
+	top: -28px;
+	
+}
+#so-li li{
+	background-color: #555555;
+	opacity: 0.5;
+}
+#so ul ul{
+	position: absolute;
+	display: none;
+}
+#so li:hover{
+	cursor: apointer;
+}
+#so-ul ol{
+	display: none;
 }
 
 *{

@@ -22,10 +22,11 @@ $(function() {
 	}
 
 
-
+//提交点击
 	$("#submit").click(function() {
 		var ls = $("#text").val();
-		window.open("https://www.baidu.com/s?wd=" + ls)
+		var le=$("#so a").attr("href");
+		window.open(le + ls)
 	})
 	window.setTimeout(function() {
 		$(".img01").css("opacity", 1);
@@ -75,7 +76,8 @@ $(function() {
 	$("#text").keydown(function(en){
 		if (en.keyCode == 13) {
 			var ls = $("#text").val();
-			window.open("https://www.baidu.com/s?wd=" + ls)
+			var le=$("#so a").attr("href");
+			window.open(le+ls);
 
 		};
 
@@ -183,6 +185,23 @@ $(function() {
 	function trim(str){  
   return str.replace(/^(\s|\u00A0)+/,'').replace(/(\s|\u00A0)+$/,'');  
 }
+//查询
+$("#so-ul li").click(function(){
+	$("#so-li li").css("background-color","#555555");
+	var sd=$(this).index();
+	sd=sd+1;
+	var lis=$("#so-li li").length;
+	for(var i=1;i<=lis;i++){
+		if(sd==i){
+			$("#so-li li").eq(i-1).css("background-color","#141414");
+			
+		}
+	}
+	$("#so a").attr("href",$(this).find("ol li").eq(0).text());
+	$("#so a img").attr("src",$(this).find("ol li").eq(1).text());
+	$("#so #text").attr("placeholder",$(this).find("ol li").eq(2).text());
+	
+})
 
 
 });
